@@ -84,26 +84,27 @@
             </Spinner>
 
             <ImageView
+                android:id="@+id/ivJobs"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_gravity="center"/>
 
             <TextView
-                android:id="@+id/ivJobs"
                 android:src="@drawable/dwarf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_forca"/>
 
             <TextView
+                android:id="@+id/tvForca"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/label_proporcao_forca"
                 android:gravity="right"/>
 
             <SeekBar
                 android:id="@+id/sbForce"
                 android:layout_width="match_parent"
+                android:max="666"
                 android:layout_height="wrap_content" />
 
             <Button
